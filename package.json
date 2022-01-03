@@ -1,0 +1,25 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Node.JS learning",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jemis140/Node.git"
+  },
+  "author": "Jemis Zadafiya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jemis140/Node/issues"
+  },
+  "homepage": "https://github.com/jemis140/Node#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

@@ -1,5 +1,6 @@
-const { O_DIRECT } = require('constants')
-const os = require('os')
 
-const currentOS = {upTime: os.uptime(),release: os.release(),freemem: os.freemem()}
-console.log(currentOS)
+const lodashm = require('lodash')
+const a = [1, [2, [3, [4]]]]
+
+newArray = lodashm.flatMapDeep(a);
+console.log(newArray);
